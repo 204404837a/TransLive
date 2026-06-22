@@ -1,0 +1,153 @@
+{
+  "description": "TransLive 实验测试集：20 条中英互译用例",
+  "cases": [
+    {
+      "id": 1,
+      "category": "daily",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "你好，今天天气怎么样？"
+    },
+    {
+      "id": 2,
+      "category": "daily",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "我想预订一张明天去上海的火车票。"
+    },
+    {
+      "id": 3,
+      "category": "daily",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "请把会议时间改到下午三点。"
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "深度学习模型需要大量标注数据进行训练。"
+    },
+    {
+      "id": 5,
+      "category": "tech",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "该系统采用前后端分离架构，后端使用 FastAPI 框架。"
+    },
+    {
+      "id": 6,
+      "category": "long",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "人工智能技术的发展正在深刻改变我们的生活和工作方式，从智能语音助手到自动驾驶汽车，机器学习算法无处不在。"
+    },
+    {
+      "id": 7,
+      "category": "daily",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "这家餐厅的菜品非常美味，服务态度也很好。"
+    },
+    {
+      "id": 8,
+      "category": "tech",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "神经机器翻译基于 Transformer 编码器-解码器结构。"
+    },
+    {
+      "id": 9,
+      "category": "daily",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "请问最近的地铁站在哪里？"
+    },
+    {
+      "id": 10,
+      "category": "long",
+      "source_lang": "zh",
+      "target_lang": "en",
+      "text": "随着全球化进程的加速，跨语言交流的需求日益增长，机器翻译技术成为打破语言壁垒的重要工具。"
+    },
+    {
+      "id": 11,
+      "category": "daily",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Hello, how are you doing today?"
+    },
+    {
+      "id": 12,
+      "category": "daily",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "I would like to order a cup of coffee, please."
+    },
+    {
+      "id": 13,
+      "category": "daily",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "The train departs at 9:30 in the morning."
+    },
+    {
+      "id": 14,
+      "category": "tech",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Natural language processing enables computers to understand human language."
+    },
+    {
+      "id": 15,
+      "category": "tech",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "The API returns a JSON response with the translated text and latency metrics."
+    },
+    {
+      "id": 16,
+      "category": "long",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Machine translation has evolved from rule-based systems to statistical models and now to neural network approaches that achieve near-human quality on many language pairs."
+    },
+    {
+      "id": 17,
+      "category": "daily",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Could you please help me with this problem?"
+    },
+    {
+      "id": 18,
+      "category": "tech",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Docker containers provide a lightweight and reproducible deployment environment."
+    },
+    {
+      "id": 19,
+      "category": "daily",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Thank you for your patience and understanding."
+    },
+    {
+      "id": 20,
+      "category": "long",
+      "source_lang": "en",
+      "target_lang": "zh",
+      "text": "Real-time translation systems must balance accuracy, latency, and user experience to meet the demands of interactive applications."
+    }
+  ],
+  "performance_lengths": [10, 50, 100, 200, 500],
+  "sample_texts": {
+    "10": "Hello world",
+    "50": "Artificial intelligence is transforming how we work and live every day.",
+    "100": "Machine translation systems use neural networks to convert text from one language to another with high accuracy.",
+    "200": "The development of transformer-based models has significantly improved the quality of machine translation. These models can capture long-range dependencies in text and produce more fluent translations compared to earlier approaches.",
+    "500": "In recent years, the field of natural language processing has witnessed remarkable progress. Neural machine translation systems, powered by deep learning architectures such as the Transformer, have become the dominant approach for building production-grade translation services. These systems are trained on large parallel corpora and can generalize well to diverse domains. However, challenges remain in handling low-resource languages, preserving context in long documents, and ensuring fairness across different dialects and cultural expressions."
+  }
+}
